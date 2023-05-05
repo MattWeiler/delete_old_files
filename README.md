@@ -1,5 +1,5 @@
 # delete_old_files
-Delete old files via a command line interface.
+Recursively delete old files via a command line interface.
 
 ## Reason for the application
 I built this application because I was having an issue in which my **Plex Server**, running on **Windows 10**, was filling-up my ram-disk with transcoding files. Sometimes it would clear the files and sometimes it would not.
