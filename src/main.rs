@@ -122,6 +122,8 @@ fn main() {
         Ok(all_deleted) => println!("All files deleted: {all_deleted}"),
         Err(_) => println!("An error occurred while deleting files."),
     };
+
+    exit(0);
 }
 
 /**
