@@ -10,6 +10,7 @@ use std::time::{ SystemTime, UNIX_EPOCH };
 ///////////////
 // CONSTANTS //
 ///////////////
+const APP_VERSION: &str = env!("CARGO_PKG_VERSION");
 const ARGUMENT_FLAG_PREFIX: &str = "-";
 const ARGUMENT_FLAG_HELP1: &str = "-h";
 const ARGUMENT_FLAG_HELP2: &str = "-help";
@@ -129,6 +130,10 @@ fn main() {
 fn print_help() {
     println!("NAME");
     println!("\tdelete_old_files");
+    println!();
+
+    println!("VERSION");
+    println!("\t{APP_VERSION}");
     println!();
 
     println!("SYNOPSIS");
