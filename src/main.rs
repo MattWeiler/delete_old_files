@@ -28,8 +28,6 @@ fn main() {
     let mut min_file_age_mins = 60;
     let mut perform_deletes = false;
 
-    // root_dir_path.push_str("C:\\Users\\mattw\\Downloads\\test\\test1");
-
     let args: Vec<_> = env::args().collect();
     let mut current_flag: String = String::new();
 
